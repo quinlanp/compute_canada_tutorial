@@ -4,6 +4,22 @@ For the compute canada systems most of the information you will need can be foun
 
 https://docs.alliancecan.ca/wiki/AI_and_Machine_Learning
 
+I found this user tutorial also really helpful if you want to use the cluster in a more IDE based manner like vs code. 
+https://prashp.gitlab.io/post/compute-canada-tut/
+
+If you decide to link the remote CC using vs code, using the Remote-SSH extension might be a good choice to automate the process. It basically automates the process of logging into the CC cluster, but you still have to go through the Duo push manually. I have attached the config file when using the Remote-SSH extension
+
+```bash
+Host narval
+  HostName narval.computecanada.ca
+  User henrysh
+  IdentityFile ~/.ssh/id_rsa
+```
+In my case, when using the extension, I encountered the situation where I don't know where to input my selection of Duo push when prompted in the vs code terminal. I have included a solution that I found helpful to resolve this issue:
+https://stackoverflow.com/questions/69277631/2fa-with-vs-code-remote-ssh
+
+
+
 There are several different file systems on each cluster:
 
 | Filesystem     | Default Quota                      | Lustre-based | Backed up | Purged                               | Available by Default | Mounted on Compute Nodes |
