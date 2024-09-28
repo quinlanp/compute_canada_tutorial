@@ -40,6 +40,10 @@ pip install --upgrade huggingface_hub[cli]
 Hugging face requires login to download llama 3 models, make sure that you are loogged in before running the following command:
 ```bash
 huggingface-cli login
+```
+
+You can also check your login status:
+```bash
 huggingface-cli whoami
 ```
 
