@@ -37,14 +37,13 @@ pip install --upgrade huggingface_hub[cli]
 
 ```
 
-Now Download the Model
-
 Hugging face requires login to download llama 3 models, make sure that you are loogged in before running the following command:
 ```bash
 huggingface-cli login
 huggingface-cli whoami
 ```
 
+Now Download the Model
 
 ```bash
 huggingface-cli download meta-llama/Llama-3.1-70B-Instruct --local-dir /home/[username]/scratch/llama3_1_70b_instruct
