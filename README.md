@@ -12,8 +12,8 @@ If you decide to link the remote CC using vs code, using the Remote-SSH extensio
 ```bash
 Host narval
   HostName narval.computecanada.ca
-  User henrysh
-  IdentityFile ~/.ssh/id_rsa
+  User [username_here]
+  IdentityFile ~/.ssh/id_rsa #replace this with the path where you store your ssh key
 ```
 In my case, when using the extension, I encountered the situation where I don't know where to input my selection of Duo push when prompted in the vs code terminal. I have included a solution that I found helpful to resolve this issue:
 https://stackoverflow.com/questions/69277631/2fa-with-vs-code-remote-ssh
