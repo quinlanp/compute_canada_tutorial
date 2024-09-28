@@ -49,9 +49,17 @@ huggingface-cli whoami
 
 Now Download the Model
 
+
 ```bash
 huggingface-cli download meta-llama/Llama-3.1-70B-Instruct --local-dir /home/[username]/scratch/llama3_1_70b_instruct
 ```
+
+User tutorial section 4.1 seems not in favor of using the scracth dir for reliable storage. Therefore another option is to put into the project dir:
+
+```bash
+huggingface-cli download meta-llama/Llama-3.1-70B-Instruct --local-dir ~/projects/def-zhu2048/[username]/llama3_1_70b_instruct
+```
+
 
 Download the data
 ```bash
