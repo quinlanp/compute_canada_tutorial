@@ -39,6 +39,8 @@ pip install --upgrade huggingface_hub[cli]
 
 Now Download the Model
 
+(You need to log in your hugging face account before being able to download the model)
+
 ```bash
 huggingface-cli download meta-llama/Llama-3.1-70B-Instruct --local-dir /home/[username]/scratch/llama3_1_70b_instruct
 ```
