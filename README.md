@@ -85,7 +85,7 @@ llama 3 dev docs provide some running samples to fine-tune the model using diffe
 
 https://github.com/meta-llama/llama-recipes/blob/main/recipes/quickstart/finetuning/singlegpu_finetuning.md
 
-They use the samsum data as a fine-tuning examples that carries out text summarization tasks. Huggingface link is inlcuded below:
+They use the samsum data that carries out text summarization tasks as a fine-tuning example. Huggingface link is inlcuded below:
 https://github.com/meta-llama/llama-recipes/blob/main/recipes/quickstart/finetuning/singlegpu_finetuning.md
 
 
